@@ -31,12 +31,15 @@ export default function HowYouCanBenefit() {
 
   return (
     <>
-      <div className=" bg-cyan-800 w-full h-[1350px] ">
-        <div className="w-full p-7 py-12 h-full flex items-center flex-col ">
-          <h1 className=" text-white text-6xl font-semibold py-10">
+      <div className=" bg-cyan-800 w-full max-h-[1550px] lg:z-20 lg:max-h-[2650px]">
+        <div className="w-full p-7 py-12 h-full flex items-center flex-col lg:z-20 ">
+          <h1 className=" text-white text-5xl font-semibold py-10 lg:text-[100px]  ">
             How do You benefit?
           </h1>
-          <div className=" bg-black mb-10 p-7 benefit-size rounded-3xl drop-shadow-2xl">
+          <div
+            className=" bg-black mb-10 p-7 benefit-size rounded-3xl drop-shadow-2xl
+           md:text-[60px] leading-[65px] lg:text-[125px] lg:leading-[130px]  "
+          >
             <div>
               <p
                 className={

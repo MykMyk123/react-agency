@@ -5,6 +5,7 @@ import HowYouCanBenefit from "./HowYouCanBenefit";
 import LetsGoViral from "./LetsGoViral";
 import YouDoNothing from "./YouDoNothing";
 import YtShorts from "./YtShorts";
+import ContactForm from "./ContactForm";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <LetsGoViral />
       <YouDoNothing />
       <YtShorts />
+      <ContactForm />
     </>
   );
 }
