@@ -12,7 +12,7 @@ export default function TikTokVideos() {
     <>
       <div
         className="flex w-full px-4 justify-center overflow-hidden p-10 min-h-[150px]
-        lg:items-end lg:px-0 lg:justify-center lg:h-[400px] lg:min-h-[712px] "
+        lg:items-end lg:px-0 lg:justify-center lg:h-[400px] lg:min-h-[562px] "
       >
         <video
           src={alex}

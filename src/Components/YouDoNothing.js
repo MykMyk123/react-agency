@@ -8,7 +8,7 @@ export default function YouDoNothing() {
         <div className="flex flex-col items-center lg:items-start lg:pr-[180px]">
           <h2
             className="text-white font-semibold text-5xl leading-[60px]
-           pb-16 z-10 relative pt-14 lg:text-[100px] lg:leading-[100px]"
+           pb-16 z-10 relative pt-14 lg:text-[72px] lg:leading-[72px]"
           >
             You literally do <span className=" text-cyan-400 ">nothing</span>{" "}
             <div className=" -z-10 absolute top-0 left-0 w-48 h-48 bg-cyan-600 rounded-full filter blur-2xl  animate-blob   "></div>

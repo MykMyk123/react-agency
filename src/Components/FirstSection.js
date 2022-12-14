@@ -6,7 +6,7 @@ export default function FirstSection() {
     <>
       <div
         className="  bg-black flex justify-center items-center
-        lg:h-[1000px] lg:z-0 "
+        lg:h-[850px] lg:z-0  "
       >
         <div className=" min-w-[300px]  flex items-center flex-col lg:w-full lg:z-0 justify-center ">
           <div className="relative">

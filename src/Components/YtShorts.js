@@ -32,10 +32,10 @@ export default function YtShorts() {
   return (
     <>
       <div className=" bg-black w-full max-h-[1600px] lg:max-h-[4500px] lg:pt-[150px] ">
-        <div className="w-full p-7 py-12 h-full flex items-center flex-col  ">
+        <div className="w-full p-7 py-12 h-full flex  flex-col items-center  ">
           <h1
             className={
-              " text-white text-5xl font-semibold py-10 leading-[60px] lg:text-[100px] lg:leading-[100px] lg:pb-[120px] "
+              " text-white text-5xl font-semibold py-10 leading-[60px] lg:text-[100px] lg:leading-[100px] lg:pb-[120px] lg:text-center "
             }
           >
             Pay <span className=" text-cyan-400">only</span> when You get views.
@@ -83,11 +83,11 @@ export default function YtShorts() {
             <p className="text-white">
               <p
                 className={
-                  isVisible4
+                  isVisible6
                     ? "text-white transition-all  delay-500 duration-700 translate-y-0 opacity-100"
                     : " opacity-0 translate-y-32 "
                 }
-                ref={text4}
+                ref={text6}
               >
                 It's a win win situation.
               </p>
