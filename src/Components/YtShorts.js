@@ -38,7 +38,8 @@ export default function YtShorts() {
               " text-white text-5xl font-semibold py-10 leading-[60px] lg:text-[100px] lg:leading-[100px] lg:pb-[120px] lg:text-center "
             }
           >
-            Pay <span className=" text-cyan-400">only</span> when You get views.
+            Shorts will finally earn You{" "}
+            <span className=" text-cyan-400">money</span>
           </h1>
           <div
             className=" bg-cyan-800 mb-10 leading-[45px] text-[40px] p-5
@@ -54,7 +55,7 @@ export default function YtShorts() {
               }
               ref={text1}
             >
-              We get paid in the CPM model.
+              Starting February 1, 2023, all creators in YouTube Partner Program
             </p>
             <br />
             <p
@@ -65,7 +66,7 @@ export default function YtShorts() {
               }
               ref={text2}
             >
-              You pay a certain fee for 1000 views from shorts we edited.
+              will become eligible for revenue sharing on ads
             </p>
             <br />
             <p
@@ -76,7 +77,7 @@ export default function YtShorts() {
               }
               ref={text3}
             >
-              The fee varies, depending on the channel.
+              that are viewed between Shorts in the Shorts Feed.
             </p>
             <br />
 
@@ -89,7 +90,7 @@ export default function YtShorts() {
                 }
                 ref={text6}
               >
-                It's a win win situation.
+                It's a revolution for short creators.
               </p>
               <br />
               <p
@@ -100,10 +101,10 @@ export default function YtShorts() {
                 }
                 ref={text4}
               >
-                You are assured to not overpay and get the best edit possible.
+                They will be able to monetize they shorts.
               </p>
               <br />
-              <p
+              {/* <p
                 className={
                   isVisible5
                     ? "text-white transition-all  delay-500 duration-700 translate-y-0 opacity-100"
@@ -112,7 +113,7 @@ export default function YtShorts() {
                 ref={text5}
               >
                 We are paid according to how good we did our job.
-              </p>
+              </p> */}
             </p>
           </div>
         </div>
