@@ -101,7 +101,7 @@ export default function YtShorts() {
                 }
                 ref={text4}
               >
-                They will be able to monetize they shorts.
+                They will be able to monetize their shorts.
               </p>
               <br />
               {/* <p
